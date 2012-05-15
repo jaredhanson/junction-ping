@@ -9,7 +9,7 @@ docs: docs/api.html
 
 docs/api.html: lib/junction/*.js
 	dox \
-		--title Junction \
+		--title junction-ping \
 		--desc "XMPP Ping middleware for Junction" \
 		$(shell find lib/junction-ping/* -type f) > $@
 
