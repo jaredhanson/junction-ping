@@ -9,9 +9,7 @@ and [Node](http://nodejs.org).
 
 ## Usage
 
-#### Middleware
-
-Use `ping` middleware in application:
+To respond to application-level pings, use `ping` middleware:
 
     var ping = require('junction-ping');
 
