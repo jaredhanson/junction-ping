@@ -3,6 +3,21 @@
 [XMPP Ping](http://xmpp.org/extensions/xep-0199.html) middleware built on [Junction](http://github.com/jaredhanson/junction)
 and [Node](http://nodejs.org).
 
+## Installation
+
+    $ npm install junction-ping
+
+## Usage
+
+#### Middleware
+
+Use `ping` middleware in application:
+
+    var ping = require('junction-ping');
+
+    var app = junction()
+      .use(ping());
+
 ## Tests
 
     $ npm install --dev
