@@ -1,6 +1,6 @@
 {
   "name": "junction-ping",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "XMPP Ping middleware for Junction.",
   "keywords": ["junction", "xmpp", "jabber", "ping", "xep0199", "middleware"],
   "repository": {
